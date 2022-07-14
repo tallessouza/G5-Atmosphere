@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 teste backend
 
+=======
+teste
+>>>>>>> af9d69211adb48a9818d7313a161d5cf6905fe21
 # Store theme
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
