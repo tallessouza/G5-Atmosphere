@@ -39,6 +39,9 @@ In this section we intend to talk about the general process of ideation and the 
 The day after the challenge started we joined a group call to make sure we all underestood all of the demands. It resulted in a rough Kanban-ish Trello Board as follows:
 ![image](https://user-images.githubusercontent.com/64051560/179425558-f03bb9fa-9340-41a0-916f-033b7475910c.png)
 
+We then agreed on theming the store with the colors of our house and even agreed on using a logo designed by Elias.
+
+
 
 
 
