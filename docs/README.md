@@ -41,6 +41,10 @@ The day after the challenge started we joined a group call to make sure we all u
 
 We then agreed on theming the store with the colors of our house and even agreed on using a logo designed by Elias.
 
+<p float="left">
+<img width="380" src="https://user-images.githubusercontent.com/64051560/179427314-df9d9f78-567e-4ed7-ab59-3bfda34ca20e.png"/>
+<img width="300" src="https://user-images.githubusercontent.com/64051560/179427319-dd70f84d-2637-4fda-8cc8-76e28bbc3f02.png"/>
+</p>
 
 
 
