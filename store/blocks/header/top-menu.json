@@ -22,6 +22,7 @@
   },
   "vtex.menu@2.x:menu#institutional": {
     "children": [
+      "menu-item#about-us",
       "menu-item#vtex-website"
     ]
   },
@@ -33,10 +34,9 @@
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
         "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "tagTitle": "Hiring Coders #3",
+        "text": "Hiring Coders #3"
       }
     }
   }

@@ -56,8 +56,8 @@
       "semanticColors": {
         "background": {
           "base": "#ffffff",
-          "base--inverted": "#03044e",
-          "action-primary": "#0F3E99",
+          "base--inverted": "#ff0000",
+          "action-primary": "#fff",
           "action-secondary": "#eef3f7",
           "emphasis": "#f71963",
           "disabled": "#f2f4f5",
@@ -74,8 +74,8 @@
           "muted-5": "#f2f4f5"
         },
         "hover-background": {
-          "action-primary": "#072c75",
-          "action-secondary": "#dbe9fd",
+          "action-primary": "#5E18EA",
+          "action-secondary": "#303030",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -106,9 +106,9 @@
           "muted-5": "#f2f4f5"
         },
         "text": {
-          "action-primary": "#0F3E99",
+          "action-primary": "#5E18EA",
           "action-secondary": "#eef3f7",
-          "link": "#0F3E99",
+          "link": "#5E18EA",
           "emphasis": "#f71963",
           "disabled": "#979899",
           "success": "#8bc34a",
@@ -127,8 +127,8 @@
           "link": "#0c389f"
         },
         "hover-text": {
-          "action-primary": "#072c75",
-          "action-secondary": "#dbe9fd",
+          "action-primary": "#ff0000",
+          "action-secondary": "#DBE9FD",
           "link": "#0c389f",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
@@ -149,7 +149,7 @@
           "warning--faded": "#fff6e0"
         },
         "border": {
-          "action-primary": "#0F3E99",
+          "action-primary": "#5E18EA",
           "action-secondary": "#eef3f7",
           "emphasis": "#f71963",
           "disabled": "#e3e4e6",
@@ -166,8 +166,8 @@
           "muted-5": "#f2f4f5"
         },
         "hover-border": {
-          "action-primary": "#072c75",
-          "action-secondary": "#dbe9fd",
+          "action-primary": "#5E18EA",
+          "action-secondary": "#DBE9FD",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -201,7 +201,7 @@
           "base": "#3f3f40",
           "base--inverted": "#ffffff",
           "action-primary": "#ffffff",
-          "action-secondary": "#0F3E99",
+          "action-secondary": "#fff",
           "emphasis": "#ffffff",
           "disabled": "#979899",
           "success": "#ffffff",
@@ -218,7 +218,7 @@
         },
         "hover-on": {
           "action-primary": "#ffffff",
-          "action-secondary": "#0F3E99",
+          "action-secondary": "#D38D2B",
           "emphasis": "#ffffff",
           "success": "#ffffff",
           "success--faded": "#3f3f40",
@@ -229,7 +229,7 @@
         },
         "active-on": {
           "action-primary": "#ffffff",
-          "action-secondary": "#0F3E99",
+          "action-secondary": "#D38D2B",
           "emphasis": "#ffffff",
           "success": "#ffffff",
           "success--faded": "#3f3f40",
@@ -253,84 +253,84 @@
         "measure": [30, 34, 20],
         "styles": {
           "heading-1": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+            "fontFamily": "Poppins, sans-serif",
             "fontWeight": "700",
             "fontSize": "3rem",
             "textTransform": "initial",
             "letterSpacing": "0"
           },
           "heading-2": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+            "fontFamily": "Poppins, sans-serif",
             "fontWeight": "700",
             "fontSize": "2.25rem",
             "textTransform": "initial",
             "letterSpacing": "0"
           },
           "heading-3": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+            "fontFamily": "Poppins, sans-serif",
             "fontWeight": "700",
             "fontSize": "1.75rem",
             "textTransform": "initial",
             "letterSpacing": "0"
           },
           "heading-4": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-            "fontWeight": "normal",
+            "fontFamily": "Poppins, sans-serif",
+            "fontWeight": "bold",
             "fontSize": "1.5rem",
             "textTransform": "initial",
             "letterSpacing": "0"
           },
           "heading-5": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-            "fontWeight": "normal",
+            "fontFamily": "Poppins, sans-serif",
+            "fontWeight": "bold",
             "fontSize": "1.25rem",
             "textTransform": "initial",
             "letterSpacing": "0"
           },
           "heading-6": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-            "fontWeight": "normal",
+            "fontFamily": "Poppins, sans-serif",
+            "fontWeight": "bold",
             "fontSize": "1.25rem",
             "textTransform": "initial",
             "letterSpacing": "0"
           },
           "body": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-            "fontWeight": "normal",
+            "fontFamily": "Poppins, sans-serif",
+            "fontWeight": "bold",
             "fontSize": "1rem",
             "textTransform": "initial",
             "letterSpacing": "0"
           },
           "small": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-            "fontWeight": "normal",
+            "fontFamily": "Poppins, sans-serif",
+            "fontWeight": "bold",
             "fontSize": "0.875rem",
             "textTransform": "initial",
             "letterSpacing": "0"
           },
           "mini": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-            "fontWeight": "normal",
+            "fontFamily": "Poppins, sans-serif",
+            "fontWeight": "bold",
             "fontSize": "0.75rem",
             "textTransform": "initial",
             "letterSpacing": "0"
           },
           "action": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+            "fontFamily": "Poppins, sans-serif",
             "fontWeight": "500",
             "fontSize": "1rem",
             "textTransform": "uppercase",
             "letterSpacing": "0"
           },
           "action--small": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+            "fontFamily": "Poppins, sans-serif",
             "fontWeight": "500",
             "fontSize": "0.875rem",
             "textTransform": "uppercase",
             "letterSpacing": "0"
           },
           "action--large": {
-            "fontFamily": "San Francisco, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+            "fontFamily": "Poppins, sans-serif",
             "fontWeight": "500",
             "fontSize": "1.25rem",
             "textTransform": "uppercase",
@@ -338,7 +338,7 @@
           },
           "code": {
             "fontFamily": "Consolas, monaco, monospace",
-            "fontWeight": "normal",
+            "fontWeight": "bold",
             "fontSize": "1rem",
             "textTransform": "initial",
             "letterSpacing": "0"

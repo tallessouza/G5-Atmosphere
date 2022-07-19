@@ -1,3 +1,7 @@
+.element {
+  padding: 1.5rem;
+}
+
 .skuSelectorContainer--quickview .skuSelectorItemImage .frameAround, .skuSelectorContainer--quickview .skuSelectorItemImage .skuSelectorInternalBox {
   border-radius: 50%;
 }
@@ -18,25 +22,28 @@
 }
 
 .nameContainer {
-  justify-content: start;
+  justify-content: center;
+  text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
 .brandName {
   font-weight: 600;
-  font-size: 18px;
-  color: #2E2E2E;
+  font-size: 1rem;
+  color: black;
 }
 
 .container {
   text-align: start;
 }
 
-.imageContainer {
+/* .imageContainer {
   text-align: center;
+  background-color: rgb(199, 206, 211);
+  border-radius: 20px;
 }
 
 .image {
-  border-radius: 0.25rem;
-}
+  border-radius: 20px;
+} */

@@ -1,21 +1,24 @@
 .container--deals {
-  color: #ffffff;
+  color: #D38D2B;
   text-align: center;
   justify-content: center;
 }
 
 .container--shelfTitle {
-  color: #727273;
+  color: black;
+  background-color: #fff;
   justify-content: center;
   text-align: center;
+  /* padding-left: 13rem; */
 }
 
 .headingLevel2--shelfTitle {
-  font-weight: 200;
+  font-weight: 700;
 }
 
 .container--deals .paragraph {
   margin: 0;
+  color: #fff;
 }
 
 .container--link {
@@ -23,21 +26,25 @@
 }
 
 .container--question {
-  justify-content: center;
+  justify-content: left;
+  padding-left: 4rem;
 }
 
 .container--question .paragraph {
-  text-align: center;
+  font-size: 2.5rem;
+  align-items: center;
+  text-align: left;
   max-width: 540px;
   margin: 0 16px;
-  padding-top: 120px;
-  color: #03034E;
+  padding: 4rem 0;
+  color: blue;
 }
 
 .container--question .strong {
-  font-size: 32px;
+  font-size: 2.5rem;
   line-height: 2rem;
   font-weight: 700;
+  color: #03034E;
 }
 
 .container--link .paragraph {
@@ -57,7 +64,7 @@
 .container--link .link {
   text-decoration: none;
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 700;
   color: #03034E;
 }
 
@@ -69,7 +76,7 @@
 
 @media only screen and (min-width: 640px) {
   .container--question .strong {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 3rem;
   }
 

@@ -31,7 +31,7 @@
 }
 
 .savings--summary {
-  background: #8BC34A;
+  background: #D18F2B;
   border-radius: 1000px;
   align-items: center;
   display: flex;
@@ -41,14 +41,14 @@
   font-size: 0.875rem;
   font-weight: 600;
   vertical-align: baseline;
-  color: #FFFFFF;
+  color: #fffFFF;
 }
 
 .savings-discount--summary {
   font-size: 0.875rem;
   font-weight: 600;
   vertical-align: baseline;
-  color: #FFFFFF;
+  color: #fffFFF;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -74,6 +74,6 @@
   font-size: 0.875rem;
   font-weight: 600;
   vertical-align: baseline;
-  color: #FFFFFF;
+  color: #fffFFF;
   padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }

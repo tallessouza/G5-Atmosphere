@@ -1,0 +1,16 @@
+.container {
+  background-color: #505050;
+}
+
+.label {
+  font-size: 1.5rem;
+  border: 1px solid #D38D2B;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  color: #fff;
+}
+
+.label:hover {
+  background-color: #D38D2B;
+  color: #fff;
+}
