@@ -108,8 +108,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [3.37.2] - 2020-07-30
 ### Fixed
-- Active **background** `action-secondary` color from `#dbe9fd` to `#d2defc`
-- Active **border** `action-secondary` color from `#dbe9fd` to `#d2defc`
+- Active **background** `action-secondary` color from `#DBE9FD` to `#d2defc`
+- Active **border** `action-secondary` color from `#DBE9FD` to `#d2defc`
 
 ## [3.37.1] - 2020-07-08
 

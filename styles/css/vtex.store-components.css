@@ -1,3 +1,7 @@
+.searchBarContainer {
+  width: 100%;
+}
+
 .notificationBarContainer {
   background-color: #e6f1e6;
   color: #03034e;
@@ -6,16 +10,34 @@
   text-decoration: underline;
 }
 
+.infoCardContainer {
+  height: 20rem;
+  padding: 0;
+}
+
 .infoCardContainer--info-card-home {
-  max-width: 1520px;
-  margin: 0 auto;
-  background-color: #e6f1e6;
-  padding: 0px;
+  width: 100%;
+  margin: 0;
+  background-color: #F5F5F7;
+  padding-left: 18rem;
+}
+
+.infoCardImage--info-card-home {
+  width: 30rem;
+  margin-right: 18rem;
+}
+
+.infoCardCallActionContainer--info-card-home {
+  display: none;
+}
+
+.infoCardImageContainer--info-card-home {
+  text-align: right;
 }
 
 .newsletter {
-  background-color: #03054e;
-  max-width: 1528px;
+  background-color: #004CFF;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -54,6 +76,10 @@
 
 .buttonContainer {
   padding-top: 0px;
+}
+
+.imageElement {
+  color: #5E18EA;
 }
 
 .imageElement--storePrint {

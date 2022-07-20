@@ -2,16 +2,16 @@
   "store.home": {
     "blocks": [
       "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      /* You can make references to blocks defined in other files.
+      * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "rich-text#shelf-title",
+      "flex-layout.row#deals",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "info-card#home"
     ]
   },
 
@@ -22,13 +22,13 @@
       "preload": true,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+          "image": "assets/img/banner1.jpg",
+          "mobileImage": "assets/img/banner1.jpg"
         }
+        // {
+        //   "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+        //   "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+        // }
       ]
     }
   },
@@ -47,7 +47,7 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "## AS NOVIDADES. SEJA UM GEEK ATUALIZADO.",
       "blockClass": "shelfTitle"
     }
   },
@@ -80,17 +80,15 @@
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
+      "headline": "Atmosphere. <br> O melhor jeito de comprar <br> o que você ama.",
       "blockClass": "info-card-home",
-      "textAlignment": "center"
+      "textAlignment": "left"
     }
   },
 
   "rich-text#question": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
+      "text": "**Atmosphere.**\nO melhor jeito de amar o que você compra.",
       "blockClass": "question"
     }
   },

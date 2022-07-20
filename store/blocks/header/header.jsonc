@@ -29,7 +29,6 @@
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#institutional"
     ]
@@ -80,9 +79,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180",
-      "height": "12"
+      "url": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/3cb3288d-41c8-4e8b-92b0-0bb63bd0813e___ed87de812c7a43361c3fc02e65605156.png",
+      "width": "120",
+      "height": "110"
     }
   },
   "header-layout.mobile": {
@@ -112,9 +111,11 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-tshirts",
+      "menu-item#category-cups",
+      "menu-item#category-keychains",
+      "menu-item#category-cushions",
+      "menu-item#category-categoria5"
     ],
     "props": {
       "orientation": "vertical"
@@ -125,9 +126,9 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/3cb3288d-41c8-4e8b-92b0-0bb63bd0813e___ed87de812c7a43361c3fc02e65605156.png",
       "width": "77.5",
-      "height": "27.5"
+      "height": "57.5"
     }
   }
 }

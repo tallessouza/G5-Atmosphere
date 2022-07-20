@@ -1,0 +1,17 @@
+.styledLinkContent {
+  width: 100%;
+  font-size: 1.2rem;
+  /* color: #5E18EA; */
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem {
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem--isOpen {
+  padding: 0;
+  margin: 0;
+}

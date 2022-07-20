@@ -4,11 +4,94 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-apparel",
-      "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#category-tshirts",
+      "menu-item#category-cups",
+      "menu-item#category-keychains",
+      "menu-item#category-cushions",
+      "menu-item#category-categoria5"
     ]
   },
+
+  "menu-item#category-tshirts": {
+    "props": {
+      "id": "menu-item-category-tshirts",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Camisetas",
+        "text": "CAMISETAS"
+      }
+    }
+  },
+
+  "menu-item#category-cups": {
+    "props": {
+      "id": "menu-item-category-cups",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Canecas",
+        "text": "CANECAS"
+      }
+    }
+  },
+
+  "menu-item#category-keychains": {
+    "props": {
+      "id": "menu-item-category-keychains",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Chaveiros",
+        "text": "CHAVEIROS"
+      }
+    }
+  },
+
+  "menu-item#category-cushions": {
+    "props": {
+      "id": "menu-item-category-cushions",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Almofadas",
+        "text": "ALMOFADAS"
+      }
+    }
+  },
+
+  "menu-item#category-categoria5": {
+    "props": {
+      "id": "menu-item-category-categoria5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "Categoria5",
+        "text": "Categoria5"
+      }
+    }
+  },
+
   "menu-item#category-apparel": {
     "props": {
       "id": "menu-item-category-apparel",
@@ -90,21 +173,7 @@
       }
     }
   },
-  "menu-item#category-home": {
-    "props": {
-      "id": "menu-item-category-home",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Home & Decor",
-        "text": "Home & Decor"
-      }
-    }
-  },
+  
   "menu-item#more": {
     "props": {
       "id": "menu-item-custom-sale",
