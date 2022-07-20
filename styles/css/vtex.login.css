@@ -7,10 +7,14 @@
   border: 1px solid #D38D2B;
   padding: 0.5rem 1rem;
   margin: 0;
-  color: #fff;
+  color: #D38D2B;
 }
 
 .label:hover {
   background-color: #D38D2B;
-  color: #fff;
+  color: #505050;
+}
+
+.profileIcon {
+  color: #D38D2B;
 }

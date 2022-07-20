@@ -21,6 +21,10 @@ The project offers a customized Store Experience using the [vtex store theme boi
 
 ## Tutorial
 
+## REST API
+To make the request logic and change the points, the API with two endpoints was used.<br/>
+POST method https://{workspace}--{account}.myvtex.com/_v/app/pontos/:email/:pontos <br/>
+GET https://{workspace}--{account}.myvtex.com/_v/app/pontos/:email/
 
 ## Contributors 👩‍💻👨‍💻
 

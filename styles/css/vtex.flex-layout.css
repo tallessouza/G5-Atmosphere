@@ -1,6 +1,5 @@
-.flexRow {
+.flexRow--main-header {
   background-color: #fff;
-  
 }
 
 .flexRowContent--menu-link,
@@ -48,7 +47,7 @@
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #303030;
+  background-color: #505050;
 }
 
 .flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
@@ -57,7 +56,7 @@
 }
 
 .flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #fff;
+  color: #D38D2B;
   font-size: 14px;
 }
 
@@ -72,11 +71,24 @@
 }
 
 .flexRow--deals .flexCol {
+  min-width: 8rem;
   background-color: #5E18EA;
   align-items: center;
   margin-bottom: 5px;
-  padding: 3rem;
   border: 2px #aeadad;
+  padding: 2rem;
+}
+
+.flexRow--menu-row {
+  background-color: #3F3D41;
+}
+
+.flexRow--payment-methods {
+  background-color: #3F3D41;
+}
+
+.flexRow--credits {
+  background-color: #3F3D41;
 }
 
 .flexCol--filterCol {
@@ -117,4 +129,8 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+.flexCol--productRating {
+  display: none;
 }

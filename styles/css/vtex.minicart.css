@@ -1,3 +1,21 @@
 .minicartWrapperContainer {
   margin-right: 4rem;
 }
+
+.minicartContentContainer {
+  background-color: #fff;
+}
+
+.minicartIconContainer {
+  color: #D38D2B;
+}
+.minicartProductListContainer {
+  background-color: #fff;
+}
+
+.minicartSideBarContentWrapper {
+  background-color: #fff;
+}
+.minicartTitle {
+  background-color: #fff;
+}

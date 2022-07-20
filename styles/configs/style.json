@@ -55,11 +55,11 @@
       },
       "semanticColors": {
         "background": {
-          "base": "#ffffff",
-          "base--inverted": "#ff0000",
+          "base": "#fff",
+          "base--inverted": "#fff",
           "action-primary": "#fff",
-          "action-secondary": "#eef3f7",
-          "emphasis": "#f71963",
+          "action-secondary": "#505050",
+          "emphasis": "#D38D2B",
           "disabled": "#f2f4f5",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -69,13 +69,13 @@
           "warning--faded": "#fff6e0",
           "muted-1": "#727273",
           "muted-2": "#979899",
-          "muted-3": "#cacbcc",
+          "muted-3": "#D38D2B",
           "muted-4": "#e3e4e6",
           "muted-5": "#f2f4f5"
         },
         "hover-background": {
           "action-primary": "#5E18EA",
-          "action-secondary": "#303030",
+          "action-secondary": "#505050",
           "emphasis": "#dd1659",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -85,7 +85,7 @@
           "warning--faded": "#fff6e0",
           "muted-1": "#727273",
           "muted-2": "#979899",
-          "muted-3": "#cacbcc",
+          "muted-3": "#D38D2B",
           "muted-4": "#e3e4e6",
           "muted-5": "#f2f4f5"
         },
@@ -101,15 +101,15 @@
           "warning--faded": "#fff6e0",
           "muted-1": "#727273",
           "muted-2": "#979899",
-          "muted-3": "#cacbcc",
+          "muted-3": "#D38D2B",
           "muted-4": "#e3e4e6",
           "muted-5": "#f2f4f5"
         },
         "text": {
-          "action-primary": "#5E18EA",
-          "action-secondary": "#eef3f7",
+          "action-primary": "#D38D2B",
+          "action-secondary": "#505050",
           "link": "#5E18EA",
-          "emphasis": "#f71963",
+          "emphasis": "#D38D2B",
           "disabled": "#979899",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -119,7 +119,7 @@
           "warning--faded": "#fff6e0",
           "muted-1": "#727273",
           "muted-2": "#979899",
-          "muted-3": "#cacbcc",
+          "muted-3": "#D38D2B",
           "muted-4": "#e3e4e6",
           "muted-5": "#f2f4f5"
         },
@@ -127,7 +127,7 @@
           "link": "#0c389f"
         },
         "hover-text": {
-          "action-primary": "#ff0000",
+          "action-primary": "#5E18EA",
           "action-secondary": "#DBE9FD",
           "link": "#0c389f",
           "emphasis": "#dd1659",
@@ -150,8 +150,8 @@
         },
         "border": {
           "action-primary": "#5E18EA",
-          "action-secondary": "#eef3f7",
-          "emphasis": "#f71963",
+          "action-secondary": "#505050",
+          "emphasis": "#D38D2B",
           "disabled": "#e3e4e6",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
@@ -161,7 +161,7 @@
           "warning--faded": "#fff6e0",
           "muted-1": "#727273",
           "muted-2": "#979899",
-          "muted-3": "#cacbcc",
+          "muted-3": "#D38D2B",
           "muted-4": "#e3e4e6",
           "muted-5": "#f2f4f5"
         },
@@ -177,7 +177,7 @@
           "warning--faded": "#fff6e0",
           "muted-1": "#727273",
           "muted-2": "#979899",
-          "muted-3": "#cacbcc",
+          "muted-3": "#D38D2B",
           "muted-4": "#e3e4e6",
           "muted-5": "#f2f4f5"
         },
@@ -193,14 +193,14 @@
           "warning--faded": "#fff6e0",
           "muted-1": "#727273",
           "muted-2": "#979899",
-          "muted-3": "#cacbcc",
+          "muted-3": "#D38D2B",
           "muted-4": "#e3e4e6",
           "muted-5": "#f2f4f5"
         },
         "on": {
-          "base": "#3f3f40",
+          "base": "#D38D2B",
           "base--inverted": "#ffffff",
-          "action-primary": "#ffffff",
+          "action-primary": "#5E18EA",
           "action-secondary": "#fff",
           "emphasis": "#ffffff",
           "disabled": "#979899",

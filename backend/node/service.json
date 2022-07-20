@@ -1,0 +1,21 @@
+{
+  "memory": 128,
+  "ttl": 10,
+  "timeout": 10,
+  "minReplicas": 2,
+  "maxReplicas": 10,
+  "workers": 4,
+  "events": {
+    
+  },
+  "routes": {
+    "getPoints": {
+      "path": "/_v/app/points/:email",
+      "public": true
+    },
+    "setPoints": {
+      "path": "/_v/app/pontos/:email/:value",
+      "public": true
+    }
+  }
+}

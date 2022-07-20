@@ -1,8 +1,0 @@
-{
-  "my-account-page.my-points-page": {
-    "component": "MyPointsPage"
-  },
-  "my-account-link.my-points-page-link": {
-    "component": "MyPointsMenuLink"
-  } 
-}

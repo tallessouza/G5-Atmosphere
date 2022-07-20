@@ -4,213 +4,125 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-tshirts",
-      "menu-item#category-cups",
-      "menu-item#category-keychains",
-      "menu-item#category-cushions",
-      "menu-item#category-categoria5"
+      "menu-item#category-products"
     ]
   },
 
-  "menu-item#category-tshirts": {
+  "menu-item#category-products": {
     "props": {
-      "id": "menu-item-category-tshirts",
+      "id": "menu-item-category-products",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/home---decor/",
+        "href": "/category-products",
         "noFollow": false,
-        "tagTitle": "Camisetas",
-        "text": "CAMISETAS"
-      }
-    }
-  },
-
-  "menu-item#category-cups": {
-    "props": {
-      "id": "menu-item-category-cups",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Canecas",
-        "text": "CANECAS"
-      }
-    }
-  },
-
-  "menu-item#category-keychains": {
-    "props": {
-      "id": "menu-item-category-keychains",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Chaveiros",
-        "text": "CHAVEIROS"
-      }
-    }
-  },
-
-  "menu-item#category-cushions": {
-    "props": {
-      "id": "menu-item-category-cushions",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Almofadas",
-        "text": "ALMOFADAS"
-      }
-    }
-  },
-
-  "menu-item#category-categoria5": {
-    "props": {
-      "id": "menu-item-category-categoria5",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": false,
-        "tagTitle": "Categoria5",
-        "text": "Categoria5"
-      }
-    }
-  },
-
-  "menu-item#category-apparel": {
-    "props": {
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/",
-        "noFollow": false,
-        "tagTitle": "Apparel & Accessories",
-        "text": "Apparel & Accessories"
+        "tagTitle": "Produtos",
+        "text": "PRODUTOS"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-apparel"
+      "vtex.menu@2.x:submenu#category-products"
     ]
   },
-  "vtex.menu@2.x:submenu#category-apparel": {
+  "vtex.menu@2.x:submenu#category-products": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-apparel"
+      "vtex.menu@2.x:menu#category-products"
     ]
   },
-  "vtex.menu@2.x:menu#category-apparel": {
+  "vtex.menu@2.x:menu#category-products": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#category-apparel-clothing",
-      "menu-item#category-apparel-accessories",
-      "menu-item#category-apparel-eyeglasses"
+      "menu-item#category-products-tshirts",
+      "menu-item#category-products-cushions",
+      "menu-item#category-products-bottons",
+      "menu-item#category-products-keychains",
+      "menu-item#category-products-mugs"
     ]
   },
-  "menu-item#category-apparel-clothing": {
+  "menu-item#category-products-tshirts": {
     "props": {
-      "id": "menu-item-category-apparel-clothing",
+      "id": "menu-item-category-products-tshirts",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "/products---cushions/tshirts/",
         "noFollow": false,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "tshirts",
+        "text": "Camisetas"
       }
     }
   },
-  "menu-item#category-apparel-accessories": {
+  "menu-item#category-products-cushions": {
     "props": {
-      "id": "menu-item-category-apparel-accessories",
+      "id": "menu-item-category-products-cushions",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/accessories/",
+        "href": "/products---cushions/cushions/",
         "noFollow": false,
-        "tagTitle": "Accessories",
-        "text": "Accessories"
+        "tagTitle": "cushions",
+        "text": "Almofadas"
       }
     }
   },
-  "menu-item#category-apparel-eyeglasses": {
+  "menu-item#category-products-keychains": {
     "props": {
-      "id": "menu-item-category-apparel-eyeglasses",
+      "id": "menu-item-category-products-keychains",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/eyeglasses/",
+        "href": "/products---cushions/keychains/",
         "noFollow": false,
-        "tagTitle": "Eyeglasses",
-        "text": "Eyeglasses"
+        "tagTitle": "keychains",
+        "text": "Chaveiros"
+      }
+    }
+  },
+  "menu-item#category-products-mugs": {
+    "props": {
+      "id": "menu-item-category-products-mugs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/products---cushions/mugs/",
+        "noFollow": false,
+        "tagTitle": "mugs",
+        "text": "Canecas"
+      }
+    }
+  },
+
+  "menu-item#category-products-bottons": {
+    "props": {
+      "id": "menu-item-category-products-bottons",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/products---cushions/bottons/",
+        "noFollow": false,
+        "tagTitle": "bottons",
+        "text": "bottons"
       }
     }
   },
   
-  "menu-item#more": {
-    "props": {
-      "id": "menu-item-custom-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "More",
-        "text": "More"
-      }
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#more"
-    ]
-  },
-  "vtex.menu@2.x:submenu#more": {
-    "props": {
-      "width": "100%"
-    },
-    "children": [
-      "flex-layout.row#menu-more"
-    ]
-  },
-  "flex-layout.row#menu-more": {
-    "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
-    ]
-  },
-  "flex-layout.col#menu-more-1": {
-    "children": [
-      "vtex.menu@2.x:menu#more"
-    ]
-  },
   "flex-layout.col#menu-more-2": {
     "children": [
       "info-card#home"
@@ -221,8 +133,7 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#about-us",
-      "menu-item#faq"
+      "menu-item#about-us"
     ]
   },
   "menu-item#about-us": {
@@ -237,36 +148,6 @@
         "noFollow": true,
         "tagTitle": "About us",
         "text": "About us"
-      }
-    }
-  },
-  "menu-item#faq": {
-    "props": {
-      "id": "menu-item-faq",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/faq",
-        "noFollow": true,
-        "tagTitle": "FAQ",
-        "text": "FAQ"
-      }
-    }
-  },
-  "menu-item#contact-us": {
-    "props": {
-      "id": "menu-item-contact-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/contact-us",
-        "noFollow": true,
-        "tagTitle": "Contact Us",
-        "text": "Contact Us"
       }
     }
   }

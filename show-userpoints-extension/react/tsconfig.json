@@ -1,9 +1,0 @@
-{
-  "extends": "@vtex/tsconfig",
-  "compilerOptions": {
-    "noEmitOnError": false,
-    "typeRoots": ["node_modules/@types"],
-    "types": ["node", "jest", "graphql"]
-  },
-  "include": ["./typings/*.d.ts", "./**/*.tsx", "./**/*.ts", "MyPointsPage.tsx"]
-}

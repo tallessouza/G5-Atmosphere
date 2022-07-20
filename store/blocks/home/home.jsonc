@@ -3,32 +3,37 @@
     "blocks": [
       "list-context.image-list#demo",
       "__fold__",
-      "rich-text#shelf-title",
+      "rich-text#shelf-title1",
       "flex-layout.row#shelf",
       /* You can make references to blocks defined in other files.
       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "rich-text#shelf-title",
+      "rich-text#shelf-title2",
       "flex-layout.row#deals",
-      "rich-text#shelf-title",
+      "rich-text#shelf-title3",
       "flex-layout.row#shelf",
-      "info-card#home"
+      "responsive-layout.desktop"
     ]
   },
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 570,
+      "height": 670,
       "preload": true,
       "images": [
         {
-          "image": "assets/img/banner1.jpg",
-          "mobileImage": "assets/img/banner1.jpg"
+          "image": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/8b895825-52ef-4f1f-a764-f920ef31061b___fac5d7adcb7696f404a5420f851cf313.webp",
+          "mobileImage": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/342c761b-9b82-4ff2-8366-645d3ccbcc35___3f08e45059e996332aed2c167921cae0.webp"
+        },
+        {
+          "image": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/9ebdacfc-8d86-4cf2-83cc-885072931165___98cd65f62dbcb17988efd86fc0e0cec4.webp",
+          "mobileImage": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/d1c9ca7d-1084-45fa-9b51-6b18d35cccc8___d6e595e49d45a2934a8a761687cbf9c8.webp"
+        },
+        {
+          "image": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/02f918c1-3d90-43f8-8f25-75eaaa2ec25e___0914567105bf58dd136bfda17fb439da.webp",
+          "mobileImage": "https://atmosphere.vtexassets.com/assets/vtex.file-manager-graphql/images/bfcadb00-ae75-433d-b0cc-dc101bd3d96a___1658910d74c4040e77f29f8e45c41fa7.webp"
         }
-        // {
-        //   "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
-        //   "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
-        // }
+
       ]
     }
   },
@@ -40,14 +45,26 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "never",
       "blockClass": "carousel"
     }
   },
 
-  "rich-text#shelf-title": {
+  "rich-text#shelf-title1": {
     "props": {
       "text": "## AS NOVIDADES. SEJA UM GEEK ATUALIZADO.",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "## CONHEÇA OS NOSSOS DIFERENCIAIS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title3": {
+    "props": {
+      "text": "## PRODUTOS OFICIAIS",
       "blockClass": "shelfTitle"
     }
   },
@@ -58,7 +75,7 @@
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
-      "orderBy": "OrderByTopSaleDESC"
+      "orderBy": "OrderByPriceASC"
     }
   },
   "slider-layout#demo-products": {
@@ -74,13 +91,19 @@
     }
   },
 
+  "responsive-layout.desktop": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+
   "info-card#home": {
     "props": {
       "id": "info-card-home",
       "isFullModeStyle": false,
       "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Atmosphere. <br> O melhor jeito de comprar <br> o que você ama.",
+      "imageUrl": "assets/imgs/banners/Banner-Action-Figures.png",
+      "headline": "Atmosphere. <br> O melhor jeito de comprar <br> O que você ama.",
       "blockClass": "info-card-home",
       "textAlignment": "left"
     }

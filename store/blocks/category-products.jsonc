@@ -1,0 +1,165 @@
+{
+  "store.custom#category-products": {
+    "blocks": [
+      "rich-text#category-products-tshirts",
+      "flex-layout.row#shelf-tshirts",
+      "rich-text#category-products-cushions",
+      "flex-layout.row#shelf-cushions",
+      "rich-text#category-products-bottons",
+      "flex-layout.row#shelf-bottons",
+      "rich-text#category-products-keychains",
+      "flex-layout.row#shelf-keychains",
+      "rich-text#category-products-mugs",
+      "flex-layout.row#shelf-mugs"
+    ]
+  },
+  "rich-text#category-products-tshirts": {
+    "props": {
+      "text": "## CAMISETAS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-tshirts": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "collection": "Camisetas"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "rich-text#category-products-cushions": {
+    "props": {
+      "text": "## ALMOFADAS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-cushions": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "collection": "Almofadas"
+    }
+  },
+  "slider-layout#demo-products-cushions": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "rich-text#category-products-bottons": {
+    "props": {
+      "text": "## BOTTONS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-bottons": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "collection": "Bottons"
+    }
+  },
+  "slider-layout#demo-products-bottons": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "rich-text#category-products-keychains": {
+    "props": {
+      "text": "## CHAVEIROS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-keychains": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo4": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "collection": "Chaveiros"
+    }
+  },
+  "slider-layout#demo-products-keychains": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "rich-text#category-products-mugs": {
+    "props": {
+      "text": "## CANECAS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-mugs": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo5": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "collection": "Canecas"
+    }
+  },
+  "slider-layout#demo-products-mugs": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}

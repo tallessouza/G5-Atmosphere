@@ -1,6 +1,8 @@
 .buttonText {
   font-size: .83rem;
   color: #5E18EA;
+  min-width: 8rem;
+  /* padding: 1rem; */
 }
 
 .buttonText:hover {
