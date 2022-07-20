@@ -1,0 +1,30 @@
+query	getUserOrders {    
+   customerOrders @context(provider: "vtex.orders-graphql"){
+   list {
+     allowCancellation
+     allowEdition
+     clientEmail
+     clientName
+     creationDate
+     currencyCode
+     hostname
+     isInstore
+     lastChange
+     orderGroup
+     sequence
+     orderIsComplete
+     origin
+     sellerOrderId
+     shippingEstimatedDateMax
+     shippingEstimatedDateMin
+     status   
+     subscriptionGroup
+     totalItems
+     totalValue
+     value
+     workflowInErrorState
+     workflowInRetry
+   }
+  }
+
+}

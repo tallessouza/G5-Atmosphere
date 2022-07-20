@@ -14,7 +14,6 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "atmosphere.my-account-show-userpoints-extension": "^0.0.1",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
