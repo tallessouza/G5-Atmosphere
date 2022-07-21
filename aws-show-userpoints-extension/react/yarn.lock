@@ -1637,11 +1637,6 @@ asynckit@^0.4.0:
   resolved "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
-"atmosphere.my-account-show-userpoints-extension@https://othyagocarvalho--atmosphere.myvtex.com/_v/private/typings/linked/v1/atmosphere.my-account-show-userpoints-extension@0.0.1+build1658358398/public/@types/atmosphere.my-account-show-userpoints-extension":
-  version "0.0.1"
-  resolved "https://othyagocarvalho--atmosphere.myvtex.com/_v/private/typings/linked/v1/atmosphere.my-account-show-userpoints-extension@0.0.1+build1658358398/public/@types/atmosphere.my-account-show-userpoints-extension"
-  integrity sha512-kOmNwcJjOdsfzHYBlr8Qi+oIuIDYBl3BG2WforAVw/YR8SgFkgOOLhw03tC6Ky4SF1cULQc2I92IByGrrAx3Ww==
-
 atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npmjs.org/atob/-/atob-2.1.2.tgz"
