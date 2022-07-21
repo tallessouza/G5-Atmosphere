@@ -22,21 +22,24 @@ The project offers a customized Store Experience using the [vtex store theme boi
 
 Reproduce our results using the further developed VTEX - MASTER DATA SOLUTION:
 
-#### * Step 1 - Clone the repository
+#### * Step 1 - Clean Vtex Workspace and Clone the repository
 ```
-
+vtex unlink --all
 git clone https://github.com/tallessouza/G5-Atmosphere.git {folder-name}
+cd {folder-name}
 
 ```
 
 #### * Step 2 - Make sure you have the VTEX CLI Installed and run the following command
 ```
-cd {folder-name} && vtex unlink --all && vtex link
+git checkout front
+vtex link //to link store theme
 
 ```
 #### * Step 3 - Now you're running our store-theme but should also link the my-account app extension and the backend service, so *from the same directory* procede to your console and type
 
 ```
+git checkout main
 cd backend && vtex link
 ```
 
