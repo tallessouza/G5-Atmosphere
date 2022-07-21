@@ -1,12 +1,15 @@
 {
-  "memory": 128,
+  "memory": 256,
   "ttl": 10,
-  "timeout": 10,
+  "timeout": 2,
   "minReplicas": 2,
-  "maxReplicas": 10,
-  "workers": 4,
+  "maxReplicas": 4,
+  "workers": 1,
   "events": {
-    
+    "updatePoints": {
+      "sender": "vtex.orders-broadcast",
+      "topics": ["cancel", "order-created"]
+    }
   },
   "routes": {
     "getPoints": {
@@ -14,7 +17,7 @@
       "public": true
     },
     "setPoints": {
-      "path": "/_v/app/pontos/:email/:value",
+      "path": "/_v/app/pontos/:profile/:value",
       "public": true
     }
   }

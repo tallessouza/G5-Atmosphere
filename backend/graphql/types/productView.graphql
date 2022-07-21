@@ -1,5 +1,0 @@
-# /graphql/types/productView.graphql
-type ProductView {
-    slug: String
-    count: Int
-}

@@ -7,8 +7,8 @@ export async function getPoints(ctx: Context, next: () => Promise<any>) {
     }
   } = ctx
 
-  // console.log(ctx.vtex.authToken)
-  // console.info('Received params:', params)
+  console.log(ctx.vtex.authToken)
+  console.info('Received params:', params)
 
   const { email } = params
   try {
@@ -19,7 +19,7 @@ export async function getPoints(ctx: Context, next: () => Promise<any>) {
         dpoints: number
       }>({
         dataEntity: COURSE_ENTITY,
-        fields: ['dpoints', 'id', 'email'],
+        fields: ['dpoints', 'userId', 'email'],
         pagination: {
           page: 1,
           pageSize: 1
@@ -36,7 +36,7 @@ export async function getPoints(ctx: Context, next: () => Promise<any>) {
   }
   // ctx.status = 200
   // ctx.body = await analytics.getLiveUsers()
-  // ctx.set('cache-control', 'no-cache')
+  ctx.set('cache-control', 'no-cache')
 
   await next()
 }
