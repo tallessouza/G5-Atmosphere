@@ -27,7 +27,7 @@
     "children": ["slider-layout#demo-products"],
     "props": {
       "orderBy": "OrderByPriceASC",
-      "collection": "Camisetas"
+      "category": "22/31"
     }
   },
   "slider-layout#demo-products": {
@@ -50,14 +50,14 @@
     }
   },
   "flex-layout.row#shelf-cushions": {
-    "children": ["list-context.product-list#demo1"]
+    "children": ["list-context.product-list#demo2"]
   },
   "list-context.product-list#demo2": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
       "orderBy": "OrderByPriceASC",
-      "collection": "Almofadas"
+      "category": "22/30"
     }
   },
   "slider-layout#demo-products-cushions": {
@@ -80,14 +80,14 @@
     }
   },
   "flex-layout.row#shelf-bottons": {
-    "children": ["list-context.product-list#demo1"]
+    "children": ["list-context.product-list#demo3"]
   },
   "list-context.product-list#demo3": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
       "orderBy": "OrderByPriceASC",
-      "collection": "Bottons"
+      "category": "22/23"
     }
   },
   "slider-layout#demo-products-bottons": {
@@ -110,14 +110,14 @@
     }
   },
   "flex-layout.row#shelf-keychains": {
-    "children": ["list-context.product-list#demo1"]
+    "children": ["list-context.product-list#demo4"]
   },
   "list-context.product-list#demo4": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
       "orderBy": "OrderByPriceASC",
-      "collection": "Chaveiros"
+      "category": "22/24"
     }
   },
   "slider-layout#demo-products-keychains": {
@@ -140,14 +140,14 @@
     }
   },
   "flex-layout.row#shelf-mugs": {
-    "children": ["list-context.product-list#demo1"]
+    "children": ["list-context.product-list#demo5"]
   },
   "list-context.product-list#demo5": {
     "blocks": ["product-summary.shelf"],
     "children": ["slider-layout#demo-products"],
     "props": {
       "orderBy": "OrderByPriceASC",
-      "collection": "Canecas"
+      "category": "22/29"
     }
   },
   "slider-layout#demo-products-mugs": {

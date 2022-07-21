@@ -1,0 +1,38 @@
+{
+  "store.custom#bottons": {
+    "blocks": [
+      "rich-text#category-products-bottons",
+      "flex-layout.row#shelf-bottons"
+    ]
+  },
+
+  "rich-text#category-products-bottons": {
+    "props": {
+      "text": "## BOTTONS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-bottons": {
+    "children": ["list-context.product-list#demo3"]
+  },
+  "list-context.product-list#demo3": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "category": "22/23"
+    }
+  },
+  "slider-layout#demo-products-bottons": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}

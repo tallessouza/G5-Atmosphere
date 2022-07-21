@@ -1,0 +1,37 @@
+{
+  "store.custom#mugs": {
+    "blocks": [
+      "rich-text#category-products-mugs",
+      "flex-layout.row#shelf-mugs"
+    ]
+  },
+  "rich-text#category-products-mugs": {
+    "props": {
+      "text": "## CANECAS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-mugs": {
+    "children": ["list-context.product-list#demo5"]
+  },
+  "list-context.product-list#demo5": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "category": "22/29"
+    }
+  },
+  "slider-layout#demo-products-mugs": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}

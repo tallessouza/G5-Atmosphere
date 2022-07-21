@@ -1,0 +1,38 @@
+{
+  "store.custom#cushions": {
+    "blocks": [
+      "rich-text#category-products-cushions",
+      "flex-layout.row#shelf-cushions"
+    ]
+  },
+
+  "rich-text#category-products-cushions": {
+    "props": {
+      "text": "## ALMOFADAS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-cushions": {
+    "children": ["list-context.product-list#demo2"]
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "category": "22/30"
+    }
+  },
+  "slider-layout#demo-products-cushions": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}

@@ -54,7 +54,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/products---cushions/tshirts/",
+        "href": "/tshirts",
         "noFollow": false,
         "tagTitle": "tshirts",
         "text": "Camisetas"
@@ -69,7 +69,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/products---cushions/cushions/",
+        "href": "/cushions",
         "noFollow": false,
         "tagTitle": "cushions",
         "text": "Almofadas"
@@ -84,7 +84,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/products---cushions/keychains/",
+        "href": "/keychains",
         "noFollow": false,
         "tagTitle": "keychains",
         "text": "Chaveiros"
@@ -99,7 +99,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/products---cushions/mugs/",
+        "href": "/mugs",
         "noFollow": false,
         "tagTitle": "mugs",
         "text": "Canecas"
@@ -115,7 +115,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/products---cushions/bottons/",
+        "href": "/bottons",
         "noFollow": false,
         "tagTitle": "bottons",
         "text": "bottons"

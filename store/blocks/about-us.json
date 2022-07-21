@@ -8,7 +8,6 @@
 
   "flex-layout.row#about-us": {
     "children": [
-      "image#mobile-phone",
       "flex-layout.col#text-about-us"
     ]
   },
@@ -27,29 +26,20 @@
   "rich-text#title-about-us": {
     "props": {
       "text":
-      "# Create meaningful and relevant experiences.",
+      "# Criando experiências",
       "blockClass": "title"
-    }
-  },
-
-  "image#mobile-phone": {
-    "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
-      "maxHeight": "",
-      "maxWidth": "",
-      "blockClass": "storePrint"
     }
   },
   "video#about-us": {
     "props": {
-      "src": "https://www.youtube.com/embed/JgkrlaF52WQ",
+      "src": "https://youtu.be/C6gukCe1S-A",
       "width": "100%",
       "height": "100%"
     }
   },
   "rich-text#about-us": {
     "props": {
-      "text": "**Optimized store framework** \n Free your front-end with our React + Node store framework. Improve usability and SEO, while driving more conversion with modular components, single page applications, and a ready-for-PWA structure. \n **Multi-currency and language** \n Go international with multiple storefronts to support different languages and easily manage local currencies and payment conditions. \n **Serverless development platform** \n Reduce loading time, improve usability, and make the best out of SEO. Developing scalable components with a comprehensive, easy-to-use toolset, you can build stores faster than ever.",
+      "text": "A **ATMOSPHERE** é uma loja Geek e Nerd, criamos produtos geeks, nerds, criativos e divertidos de alta qualidade e personalizados com temas de seus personagens preferidos. Se a ideia é presentar, aqui é o lugar certo! A nossa loja conta com muitas opções de presentes criativos para os apaixonados pelo mundo geek.\n Aqui você encontra uma variedade enorme de produtos, como: canecas personalizadas, almofadas decorativas. Todo site em até 6x sem juros e com entrega rápida. Confira nossas máscaras geeks, máscaras laváveis com dupla proteção e com elástico super confortável.\n Venha comprarna maior loja Geek do Brasil \n\n MISSÃO \n Levar alegria dentro das caixinhas para casa de milhares de colecionadores. \n\n VISÃO \n Juntos, construir a maior comunidade de comércio Geek do Brasil. \n\n VALORES \n Oferecer para nossos clientes transparências e segurança nas negociações, preços justos e um atendimento de qualidade. \n\n INOVAÇÃO \n Aprimorar cada vez mais nosso site para atender as necessidades dos nossos clientes de maneira simples e prática.",
       "blockClass": "about"
     }
   }

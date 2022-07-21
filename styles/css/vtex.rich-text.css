@@ -44,7 +44,7 @@
   font-size: 2.5rem;
   line-height: 2rem;
   font-weight: 700;
-  color: #03034E;
+  color: #5E18EA;
 }
 
 .container--link .paragraph {
@@ -52,7 +52,7 @@
   max-width: 540px;
   padding-top: 36px;
   padding-bottom: 84px;
-  color: #03034E;
+  color: #5E18EA;
 }
 
 .container--link .strong {
@@ -65,11 +65,11 @@
   text-decoration: none;
   font-size: 36px;
   font-weight: 700;
-  color: #03034E;
+  color: #5E18EA;
 }
 
 .container--title {
-  color: #03034E;
+  color: #5E18EA;
   font-size: 28px;
   font-weight: 700;
 }
@@ -85,7 +85,7 @@
   }
 
   .container--title {
-    color: #03034E;
+    color: #5E18EA;
     font-size: 40px;
     font-weight: 700;
     max-width: 60%;

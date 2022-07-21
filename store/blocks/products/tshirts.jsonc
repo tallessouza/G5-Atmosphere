@@ -1,0 +1,37 @@
+{
+  "store.custom#tshirts": {
+    "blocks": [
+      "rich-text#category-products-tshirts",
+      "flex-layout.row#shelf-tshirts"
+    ]
+  },
+  "rich-text#category-products-tshirts": {
+    "props": {
+      "text": "## CAMISETAS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-tshirts": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "category": "22/31"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}

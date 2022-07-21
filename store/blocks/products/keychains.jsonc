@@ -1,0 +1,38 @@
+{
+  "store.custom#keychains": {
+    "blocks": [
+      "rich-text#category-products-keychains",
+      "flex-layout.row#shelf-keychains"
+    ]
+  },
+
+  "rich-text#category-products-keychains": {
+    "props": {
+      "text": "## CHAVEIROS",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf-keychains": {
+    "children": ["list-context.product-list#demo4"]
+  },
+  "list-context.product-list#demo4": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "category": "22/24"
+    }
+  },
+  "slider-layout#demo-products-keychains": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  }
+}

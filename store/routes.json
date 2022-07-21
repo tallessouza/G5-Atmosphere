@@ -7,5 +7,20 @@
   },
   "store.custom#category-products": {
     "path": "/category-products"
+  },
+  "store.custom#tshirts": {
+    "path": "/tshirts"
+  },
+  "store.custom#cushions": {
+    "path": "/cushions"
+  },
+  "store.custom#bottons": {
+    "path": "/bottons"
+  },
+  "store.custom#keychains": {
+    "path": "/keychains"
+  },
+  "store.custom#mugs": {
+    "path": "/mugs"
   }
 }
