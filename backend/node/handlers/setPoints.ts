@@ -11,43 +11,51 @@ export async function setPoints(ctx: Context, next: () => Promise<any>) {
   // console.log(ctx.vtex.authToken)
   // console.info('Received params:', params)
 
-  const { email, value } = params
+  const { profile, value } = params
+  var returned = await ctx.clients.masterdata
+    .searchDocuments<{
+      dpoints: number
+      email: string
+      id: string
+    }>({
+      dataEntity: COURSE_ENTITY,
+      fields: ['dpoints', 'email', 'id'],
+      pagination: {
+        page: 1,
+        pageSize: 1
+      },
+      where: `userId=${profile}`
+    })
+    .then(res => {
+      return res
+    })
+
   try {
-    var { id, dpoints } = { id: '', dpoints: 0 }
+    var { dpoints, email, id } = returned[0]
+    console.log(`Console ${id} ${profile} ${dpoints} ${email}`)
+    returned = []
+    var finalPoint = dpoints + Number(value)
     await ctx.clients.masterdata
-      .searchDocuments<{
-        id: string
-        dpoints: number
-      }>({
-        dataEntity: COURSE_ENTITY,
-        fields: ['dpoints', 'id'],
-        pagination: {
-          page: 1,
-          pageSize: 1
-        },
-        where: `email=${email}`
-      })
-      .then(res => {
-        ;({ id, dpoints } = res[0])
-      })
-    await ctx.clients.masterdata
-      .createOrUpdateEntireDocument({
+      .updateEntireDocument({
         dataEntity: COURSE_ENTITY,
         fields: {
           email: email,
-          dpoints: dpoints + Number(value)
+          dpoints: finalPoint,
+          userId: profile.toString()
         },
         id: id
       })
       .then(res => {
+        console.log('DEPOIS')
+        console.log(finalPoint)
         return res
       })
   } catch (error) {
     console.log(error)
   }
-  ctx.status = 200
+  // ctx.status = 200
   // ctx.body = await analytics.getLiveUsers()
-  // ctx.set('cache-control', 'no-cache')
+  ctx.set('cache-control', 'no-cache')
 
   await next()
 }
