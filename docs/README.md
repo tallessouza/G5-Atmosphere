@@ -1,82 +1,58 @@
-<<<<<<< HEAD
-teste backend
 
-=======
-teste
->>>>>>> af9d69211adb48a9818d7313a161d5cf6905fe21
-# Store theme
-
+# ATMOSPHERE GROUP 5 - HIRING CODERS - SEMIFINAL CHALLENGE
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Our boilerplate theme to create stores in the VTEX IO platform.
+## The Challenge
+
+The challenge consisted of developing a back-end application to compute  *reward points* for every eligible purchase on a 1:1 ratio. The ammount of points for a given logged user should be visible at the vtex my-account application.
 
 ## Preview
 
-![store-theme-default](https://user-images.githubusercontent.com/1354492/63937047-e8d81c80-ca37-11e9-86fc-61e88847bbfb.png)
+## Introduction
+This repository houses all the apps, themes and services that make the delivery of the final project possible. 
+
+The project offers a customized Store Experience using the [vtex store theme boilerplate](https://github.com/vtex-apps/store-theme) for VTEX IO Platform, extending the [my account app](https://github.com/vtex-apps/my-account) as it renders a link in one of the extension points available and presents it's corresponding page within the My Account application.
+
+**For further information about the implementation of the My Account Extension App [visit here](#).**
+
+**For further information about the implementation of the Back-end Service App [visit here](#).**
 
 ## Tutorial
 
-To understand how things work check our tutorial [Build a store using VTEX IO](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1/)
+## REST API
+To make the request logic and change the points, the API with two endpoints was used.<br/>
+POST method https://{workspace}--{account}.myvtex.com/_v/app/pontos/:email/:pontos <br/>
+GET https://{workspace}--{account}.myvtex.com/_v/app/pontos/:email/
 
-## Dependencies
+## Contributors 👩‍💻👨‍💻
 
-All store components that you see on this document are open source too. Production ready, you can found those apps in this GitHub organization.
+NAME | GITHUB ? GITHUB : EMAIL 😅 | ROLE
+| --- | --- | --- 
+|Elias Seabra | https://github.com/EliasDoug | Store Customization
+|Fabiola Tomaz |https://github.com/fabiunik| Store Customization
+|Mônica Mendes | contato | Store Customization
+|Talles Souza | https://github.com/tallessouza| Back-end Service App
+|Tuana Sampaio | https://github.com/Tuanassf/| Store Customization
+|Thyago Carvalho | https://github.com/OThyagoCarvalho | My Account Extension App
 
-Store framework is the baseline to create any store using _VTEX IO Web Framework_.
+## The Team Effort 
+In this section we intend to talk about the general process of ideation and the approach that made the goals we set for ourselves attainable.
 
-- [Store](https://github.com/vtex-apps/store/blob/master/README.md)
+The day after the challenge started we joined a group call to make sure we all underestood all of the demands. It resulted in a rough Kanban-ish Trello Board as follows:
+![image](https://user-images.githubusercontent.com/64051560/179425558-f03bb9fa-9340-41a0-916f-033b7475910c.png)
 
-Store GraphQL is a middleware to access all VTEX APIs.
+We then agreed on theming the store with the colors of our house and even agreed on using a logo designed by Elias.
 
-- [Store GraphQL](https://github.com/vtex-apps/store-graphql/blob/master/docs/README.md)
+<p float="left">
+<img width="380" src="https://user-images.githubusercontent.com/64051560/179427314-df9d9f78-567e-4ed7-ab59-3bfda34ca20e.png"/>
+<img width="300" src="https://user-images.githubusercontent.com/64051560/179427319-dd70f84d-2637-4fda-8cc8-76e28bbc3f02.png"/>
+</p>
 
-### Store Component Apps
 
-- [Header](https://github.com/vtex-apps/store-header/blob/master/docs/README.md)
-- [Footer](https://github.com/vtex-apps/store-footer/blob/master/docs/README.md)
-- [Slider Layout](https://github.com/vtex-apps/slider-layout/blob/master/docs/README.md)
-- [Shelf](https://github.com/vtex-apps/shelf/blob/master/docs/README.md)
-- [Telemarketing](https://github.com/vtex-apps/telemarketing/blob/master/docs/README.md)
-- [Menu](https://github.com/vtex-apps/menu/blob/master/docs/README.md)
-- [Login](https://github.com/vtex-apps/login/blob/master/docs/README.md)
-- [Minicart](https://github.com/vtex-apps/minicart/blob/master/docs/README.md)
-- [Category Menu](https://github.com/vtex-apps/category-menu/blob/master/docs/README.md)
-- [Product Summary](https://github.com/vtex-apps/product-summary/blob/master/docs/README.md)
-- [Breadcrumb](https://github.com/vtex-apps/breadcrumb/blob/master/docs/README.md)
-- [Search Result](https://github.com/vtex-apps/search-result/blob/master/docs/README.md)
-- [Product Details](https://github.com/vtex-apps/product-details/blob/master/docs/README.md)
-- [Store Components](https://github.com/vtex-apps/store-components/blob/master/docs/README.md)
-- [Order Placed](https://github.com/vtex-apps/order-placed/blob/master/docs/README.md)
 
-### Store Pixel Apps
 
-- [Facebook Pixel](https://github.com/vtex-apps/facebook-pixel/blob/master/docs/README.md)
-- [Google Tag Manager](https://github.com/vtex-apps/google-tag-manager/blob/master/docs/README.md)
 
-## Contributing
 
-Check it out [how to contribute](https://github.com/vtex-apps/awesome-io#contributing) with this project.
 
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://www.hugoccosta.com"><img src="https://avatars2.githubusercontent.com/u/20212776?v=4" width="100px;" alt=""/><br /><sub><b>Hugo Costa</b></sub></a><br /><a href="https://github.com/vtex-apps/store-theme/commits?author=hugocostadev" title="Documentation">📖</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
