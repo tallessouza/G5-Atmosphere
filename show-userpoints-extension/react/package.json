@@ -17,7 +17,6 @@
     "@types/react-intl": "^2.3.18",
     "@vtex/test-tools": "^0.3.2",
     "@vtex/tsconfig": "^0.2.0",
-    "atmosphere.my-account-show-userpoints-extension": "https://talles--atmosphere.myvtex.com/_v/private/typings/linked/v1/atmosphere.my-account-show-userpoints-extension@0.0.1+build1658175611/public/@types/atmosphere.my-account-show-userpoints-extension",
     "eslint": "5.x",
     "eslint-config-vtex-react": "^5.0.1",
     "prettier": "^1.18.2",

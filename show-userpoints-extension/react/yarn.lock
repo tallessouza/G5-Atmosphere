@@ -1593,10 +1593,6 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
-"atmosphere.my-account-show-userpoints-extension@https://talles--atmosphere.myvtex.com/_v/private/typings/linked/v1/atmosphere.my-account-show-userpoints-extension@0.0.1+build1658175611/public/@types/atmosphere.my-account-show-userpoints-extension":
-  version "0.0.1"
-  resolved "https://talles--atmosphere.myvtex.com/_v/private/typings/linked/v1/atmosphere.my-account-show-userpoints-extension@0.0.1+build1658175611/public/@types/atmosphere.my-account-show-userpoints-extension#c42a5058a78ba1945600690f5c88aa8a79aa4fa8"
-
 atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
