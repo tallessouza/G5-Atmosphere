@@ -10,7 +10,7 @@ export async function updatePoints(
   const order = await orders.getOrder(orderId)
   const { userProfileId } = order.clientProfileData
   const totals = order.totals
-  const value = Number(totals[0].value) / 100
+  const value = Math.floor(Number(totals[0].value) / 100)
 
   var returned = await ctx.clients.masterdata
     .searchDocuments<{
