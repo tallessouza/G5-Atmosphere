@@ -1,52 +1,35 @@
-import { string } from "prop-types";
-import React, {
-  FunctionComponent,
-  ReactElement,
-  useEffect,
-  useState
-} from "react";
-// import { ContentWrapper } from "vtex.my-account-commons";
-import { Query } from "react-apollo";
+import React, { FunctionComponent, useState } from "react";
+import axios from "axios";
 
-import getUserEmail from "../graphql/getUserEmail.gql";
+// import getUserEmail from "../graphql/getUserEmail.gql";
 // import getUserOrders from "../graphql/getUserOrders.gql";
 
-async function fetchUsers() {
-  const usersList = await fetch(
-    "https://bh2wxvl7o0.execute-api.sa-east-1.amazonaws.com/Prod/",
-    {
-      method: "GET"
-    }
-  );
-  const data = await usersList.json();
+const UserPoints: FunctionComponent = () => {
+  const [userEmail, setUserEmail] = useState();
+  const [userPoints, setUserPoints] = useState();
 
-  return data;
-}
-
-const UserPoints: FunctionComponent<Props> = () => {
-  const [users, setUsers] = useState([{ id: string, name: string }]);
-  useEffect(() => {
-    fetchUsers().then(data => {
-      setUsers(data);
-    });
+  axios.get(`/api/sessions?items=*`).then(res => {
+    setUserEmail(res.data.namespaces.authentication.storeUserEmail.value);
   });
+
+  axios
+    .get(
+      `https://dsfkppl2j7.execute-api.sa-east-1.amazonaws.com/Prod/${userEmail}`
+    )
+    .then(res => {
+      setUserPoints(res.data.points_available);
+    });
+
   return (
     <>
       <h1> Meus Pontos </h1>
-      <Query query={getUserEmail}>
-        {({ loading }: any) => {
-          if (loading) {
-            return <p> Carregando ...</p>;
-          }
-          return <> {users.map(user => user.id + " ")} </>;
-        }}
-      </Query>
+      <p> Você tem {userPoints} pontos! </p>
+      <small>
+        Você ganha 1 ponto por cada real gasto na loja e pode conferir seus
+        pedidos elegíveis na aba Pedidos .
+      </small>
     </>
   );
-};
-
-type Props = {
-  render: (args: { label: string; value: string }[]) => ReactElement;
 };
 
 export default UserPoints;
