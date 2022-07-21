@@ -22,9 +22,13 @@ The project offers a customized Store Experience using the [vtex store theme boi
 ## Tutorial
 
 ## REST API
-To make the request logic and change the points, the API with two endpoints was used.<br/>
+
+To ensure data persistence, we use MasterData with the CL table. The dPoints field was created to save the value of points and to make the request logic and change the points, the API with two endpoints was used:<br/>
+
 POST method https://{workspace}--{account}.myvtex.com/_v/app/pontos/:email/:pontos <br/>
 GET https://{workspace}--{account}.myvtex.com/_v/app/pontos/:email/
+
+When the purchase ends and the payment is approved, the vtex.orders-broadcast sends an event that triggers the method to increase the users points on MasterData.
 
 ## Contributors 👩‍💻👨‍💻
 
